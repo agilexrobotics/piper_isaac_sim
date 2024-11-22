@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: piper_description
+    relative_path: urdf/piper_description.urdf
+  srdf:
+    relative_path: config/piper_description.srdf
+  package_settings:
+    author_name: shiqi.zhao
+    author_email: shiqi.zhao@agilex.ai
+    generated_timestamp: 1732263047
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
