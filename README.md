@@ -1,6 +1,6 @@
 # Piper_isaac_sim
 
-测试系统配置：ubuntu22.04+4060显卡
+测试系统配置：ubuntu24.04+5090显卡
 
 ## 1、配置系统环境
 
@@ -14,30 +14,24 @@
 
 ### 3）下载isaac sim
 
-> 安装isaac sim之前，可以使用ISAAC SIM COMPATIBILITY CHECKER检查一下，电脑配置是否满足要求
+[下载链接](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/index.html)
 
-在Omniverse里面下载isaac sim
 
-![](./img/isaac_1.png)
-
-下载完成之后可以启动isaac sim
-
-![](img/isacc_4.png)
-
-### 下载代码
-
-```
-https://github.com/agilexrobotics/piper_isaac_sim.git
-```
 
 ### 4）启动isaac sim，导入USD
 
-![](img/isacc_4.png)
+#### 下载代码
 
-![](img/isaac_2.png)
+```
+git clone https://github.com/agilexrobotics/piper_isaac_sim.git
+```
 
-打开isacc sim之后，在content中找到存放USD的路径，双击打开
+#### 启动isaac sim
 
-![](img/isaac_3.png)
+![](img/start_isaac.png)
+
+打开isaac sim之后，在content中找到存放USD的路径，双击打开
+
+![](img/piper_h.png)
 
 成功导入后，点击三角按钮开始仿真
